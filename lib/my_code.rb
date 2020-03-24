@@ -3,7 +3,7 @@ def map(array)
   negArray = []
   g = 0 
   while g < array.length
-   negArray << yield(array[g])
+    negArray << yield(array[g])
     g +=1 
   end
   negArray
